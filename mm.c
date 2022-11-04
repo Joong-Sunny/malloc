@@ -257,15 +257,6 @@ void remove_in_freelist(void *bp)
     {
         NEXT_FREEP(PREV_FREEP(bp)) = NEXT_FREEP(bp);
         PREV_FREEP(NEXT_FREEP(bp)) = PREV_FREEP(bp);
-        // if (NEXT_FREEP(bp) == NULL) // 뒤가 없을 때,
-        // {
-        //     NEXT_FREEP(PREV_FREEP(bp)) = NULL;
-        // }
-        // else
-        // {
-        //     NEXT_FREEP(PREV_FREEP(bp)) = NEXT_FREEP(bp);
-        //     PREV_FREEP(NEXT_FREEP(bp)) = PREV_FREEP(bp);
-        // }
     }
 }
 
