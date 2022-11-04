@@ -275,15 +275,6 @@ void put_front_of_freelist(void *bp)
 // 내꺼
 static void *find_fit(size_t asize) //
 {
-    /* First-fit search */
-    // for (void *bp = free_listp; GET_ALLOC(HDRP(bp)) != 1; bp = NEXT_FREEP(bp)) // TBD (next찾아다니면서 )프리 리스트로 바꾸기
-    // {
-    //     if (asize <= GET_SIZE(HDRP(bp)))
-    //     {
-    //         return bp;
-    //     }
-    // }
-    // return NULL; /* No fit */
     char *bp = last_bp;
 
     for (bp = NEXT_BLKP(bp); GET_SIZE(HDRP(bp)) != 0; bp = NEXT_BLKP(bp))
