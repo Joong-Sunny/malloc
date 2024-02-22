@@ -1,19 +1,19 @@
 
-## 브랜치별로 보세요!
+## ⭐️브랜치별로 보세요!
 sw 정글 모든 malloc과제 포함되어있음 (buddy system 포함)
 
-## see my repo branch by branch
+## ⭐️see my repo branch by branch
 all the assignment is done include(buddy system, explicit, implicit... etc )
 
 
-#####################################################################
-# CS:APP Malloc Lab
-# Handout files for students
-#
-# Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
-# May not be used, modified, or copied without permission.
-#
-######################################################################
+## ⭐️about
+CS:APP Malloc Lab
+Handout files for students
+Copyright (c) 2002, R. Bryant and D. O'Hallaron, All rights reserved.
+May not be used, modified, or copied without permission.
+
+
+## ⭐️assignment
 
 ***********
 Main Files:
